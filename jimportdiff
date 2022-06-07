@@ -1,0 +1,137 @@
+#! /usr/bin/env python3
+
+import itertools
+import pathlib
+import shutil
+import subprocess
+import xml.etree.ElementTree
+
+import cli_color_py
+
+import click
+
+
+@click.command("jimportdiff")
+@click.argument("source", type=click.Path(file_okay=False, exists=True, resolve_path=True))
+@click.argument("target", type=click.Path(file_okay=False, exists=True, resolve_path=True))
+@click.option("--refresh", type=click.BOOL, default=False, is_flag=True)
+def main(source, target, refresh):
+    if refresh:
+        do_refresh(source)
+        do_refresh(target)
+    old_listing = listing(source)
+    new_listing = listing(target)
+    unmatched_items = list(new_listing)
+    matched_items = []
+    missing = []
+    renamed = []
+    for old in old_listing:
+        matched = find_matching(old, unmatched_items)
+        if matched is None:
+            missing.append(old)
+        else:
+            if matched.package != old.package:
+                renamed.append((old, matched))
+            unmatched_items.remove(matched)
+            matched_items.append(matched)
+    print_simple("Removed", missing)
+    print_simple("Added", unmatched_items)
+    renamed = condensed(matched_items, renamed)
+    print_renamed("Renamed", renamed)
+
+
+def condensed(matched_items, renamed):
+    new_renamed = []
+    condensed = []
+    for (old, new) in renamed:
+        if next(filter(lambda i: i.package == old.package and i.artifactId == old.artifactId, condensed), None):
+            # already condensed
+            continue
+        others = list(filter(lambda i: i.package == old.package, matched_items))
+        others_renamed = list(filter(lambda i: i[0].package == old.package and i[1].artifactId != new.artifactId and i[1].package != new.package, renamed))
+        if not others and not others_renamed:
+            # no items kept in same package and all renames consistent
+            new_renamed.append((JavaClass(old.groupId, old.artifactId, old.package, ""), JavaClass(new.groupId, new.artifactId, new.package, "")))
+            condensed.append(old)
+        else:
+            new_renamed.append((old, new))
+    return new_renamed
+
+
+def do_refresh(path):
+    subprocess.check_call(["mvn", "clean"], cwd=path)
+    for i in pathlib.Path(path).glob("**/target"):
+        shutil.rmtree(i)
+    subprocess.check_call(["mvn", "package", "-DskipTests"], cwd=path)
+
+
+def print_simple(title, collection):
+    keyfunc = lambda i: i.artifactId
+    collection = sorted(collection, key=keyfunc)
+    print(cli_color_py.red(title))
+    for artifactId, java_classes in itertools.groupby(collection, keyfunc):
+        print(cli_color_py.blue(artifactId))
+        print("\n".join(["  {}.{}".format(i.package, i.name) for i in java_classes]))
+
+
+def print_renamed(title, collection):
+    # sort by artifact then package-only
+    keyfunc = lambda i: i[0].artifactId
+    collection = sorted(collection, key=lambda i: 1 if i[0].name else 0)
+    collection = sorted(collection, key=keyfunc)
+    print(cli_color_py.red(title))
+    def target(source, target):
+        acc = ""
+        if source.artifactId != target.artifactId:
+            acc += target.artifactId + "/"
+        acc += "{}{}".format(target.package, "." + target.name if target.name else "")
+        return acc
+    for artifactId, java_classes in itertools.groupby(collection, keyfunc):
+        print(cli_color_py.blue(artifactId))
+        print("\n".join(["  {}{} -> {}".format(i[0].package, "." + i[0].name if i[0].name else "", target(i[0], i[1])) for i in java_classes]))
+
+
+def find_matching(old, new_listing):
+    return next(filter(lambda i: old.name == i.name, new_listing), None)
+
+
+def listing(folder):
+    path = pathlib.Path(folder)
+    cache = dict()
+    return list([to_java_class(cache, i) for i in path.glob("**/target/classes/**/*.class") if not '$' in str(i)])
+
+
+def to_java_class(cache, path):
+    parent = path.parent
+    pom_xml = parent / 'pom.xml'
+    while not pom_xml.exists():
+        parent = parent.parent
+        pom_xml = parent / 'pom.xml'
+    if pom_xml in cache:
+        artifactId = cache[pom_xml][1]
+    else:
+        with pom_xml.open() as f:
+            tree = xml.etree.ElementTree.parse(f)
+            artifactId = tree.findall('./{*}artifactId')[0].text
+            cache[pom_xml] = (None, artifactId)
+    name = path.name[0:-6]
+    package = str(path.relative_to(parent / 'target/classes').parent).replace("/", ".")
+    java_class = JavaClass("", artifactId, package, name)
+    return java_class
+
+
+class JavaClass:
+    def __init__(self, groupId, artifactId, package, name):
+        self.groupId = groupId
+        self.artifactId = artifactId
+        self.package = package
+        self.name = name
+    
+    def __str__(self):
+        return "{}:{}/{}{}".format(self.groupId, self.artifactId, self.package, "." + self.name if self.name else "")
+
+    def __repr__(self):
+        return str(self)
+
+if __name__ == "__main__":
+    main()
