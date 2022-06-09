@@ -6,6 +6,7 @@ import json
 import pathlib
 import shutil
 import subprocess
+from tkinter import W
 import typing
 import xml.etree.ElementTree
 
@@ -37,8 +38,8 @@ class JavaClass:
 @dataclasses_json.dataclass_json
 @dataclasses.dataclass
 class Mapping:
-    old: JavaClass
-    new: JavaClass
+    old: typing.Union[JavaClass, None]
+    new: typing.Union[JavaClass, None]
     def __init__(self, old: JavaClass, new: JavaClass):
         self.old = old
         self.new = new
@@ -50,6 +51,9 @@ class Migration:
     mappings: typing.List[Mapping]
     def __init__(self, mappings: typing.List[Mapping]):
         self.mappings = mappings
+    
+    def find_mapping(self, old: str):
+        return next(filter(lambda i: i.old is not None and "{}.{}".format(i.old.package, i.old.name) == old, self.mappings), None)
 
 
 @click.group("jimportdiff")
@@ -87,8 +91,41 @@ def generate(source, target, refresh, output):
     print_renamed("Renamed", condensed_renamed)
     mappings = []
     mappings.extend([Mapping(None, i) for i in unmatched_items])
+    mappings.extend([Mapping(i, None) for i in missing])
     mappings.extend([Mapping(i[0], i[1]) for i in renamed])
     write_migration(Migration(mappings), output)
+
+
+@main.command("rewrite")
+@click.argument("file", type=click.Path(file_okay=True, exists=True, resolve_path=True))
+@click.argument("target", type=click.Path(file_okay=False, exists=True, resolve_path=True))
+def rewrite(file, target):
+    migration = read_migration(file)
+    for java_file in itertools.chain(pathlib.Path(target).glob("**/src/main/java/**/*.java"), pathlib.Path(target).glob("**/src/test/java/**/*.java")):
+        rewrite_java(java_file, migration)
+
+
+def rewrite_java(file, migration):
+    content = None
+    with open(file, "r") as f:
+        content = f.readlines()
+    modified = False
+    for idx, line in enumerate(content):
+        if line.startswith("public ") or line.startswith("class ") or line.startswith("private "):
+            continue
+        if line.startswith("import"):
+            import_statement = line[7: -2]
+            mapping = migration.find_mapping(import_statement)
+            if mapping is not None:
+                if mapping.new is None:
+                    print("No replacement for {} in {}".format(import_statement, pathlib.Path(file).name))
+                else:
+                    content[idx] = line.replace(import_statement, "{}.{}".format(mapping.new.package, mapping.new.name))
+                    modified = True
+    if modified:
+        with open(file, "w") as f:
+            f.writelines(content)
+        print("File {} modified".format(file))
 
 
 def condensed(matched_items, renamed):
@@ -148,8 +185,8 @@ def write_migration(migration: Migration, output: str):
 
 
 def read_migration(file: str):
-    with open("input.json", "r") as inp:
-        migration = Migration.from_json(inp.read())
+    with open(file, "r") as inp:
+        return Migration.from_json(inp.read())
 
 def find_matching(old, new_listing):
     return next(filter(lambda i: old.name == i.name, new_listing), None)
