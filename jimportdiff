@@ -1,6 +1,7 @@
 #! /usr/bin/env python3
 
 import dataclasses
+import functools
 import itertools
 import pathlib
 import re
@@ -66,8 +67,11 @@ def main():
 @click.argument("source", type=click.Path(file_okay=False, exists=True, resolve_path=True))
 @click.argument("target", type=click.Path(file_okay=False, exists=True, resolve_path=True))
 @click.option("--refresh", type=click.BOOL, default=False, is_flag=True)
+@click.option("package_mappings", "--package-mapping", multiple=True, envvar="PACKAGE_MAPPING", help="Package mapping old.package:new.package")
 @click.option("output", "--output", "-o", type=str, default="output.json")
-def generate(source, target, refresh, output):
+def generate(source, target, refresh, output, package_mappings):
+    # split mapping entries
+    package_mappings = [pm.split(":") for pm in package_mappings]
     if refresh:
         do_refresh(source)
         do_refresh(target)
@@ -78,7 +82,7 @@ def generate(source, target, refresh, output):
     missing = []
     renamed = []
     for old in old_listing:
-        matched = find_matching(old, unmatched_items)
+        matched = find_matching(old, unmatched_items, package_mappings)
         if matched is None:
             missing.append(old)
         else:
@@ -100,10 +104,13 @@ def generate(source, target, refresh, output):
 @main.command("rewrite")
 @click.argument("file", type=click.Path(file_okay=True, exists=True, resolve_path=True))
 @click.argument("target", type=click.Path(file_okay=False, exists=True, resolve_path=True))
-def rewrite(file, target):
-    migration = read_migration(file)
+@click.option("--migration", type=click.Choice(["bootstrap5"]))
+def rewrite(file, target, migration):
+    migration_source = read_migration(file)
     for java_file in itertools.chain(pathlib.Path(target).glob("**/src/main/java/**/*.java"), pathlib.Path(target).glob("**/src/test/java/**/*.java")):
-        rewrite_java(java_file, migration)
+        rewrite_java(java_file, migration_source)
+    if migration:
+        MIGRATIONS[migration](pathlib.Path(target))
 
 
 def rewrite_java(file, migration):
@@ -115,7 +122,7 @@ def rewrite_java(file, migration):
         if line.startswith("public ") or line.startswith("class ") or line.startswith("private "):
             break
         if line.startswith("import "):
-            match = re.fullmatch(" *import (static)? *([^ ]+)\\.[^ .]* *;", line.strip())
+            match = re.fullmatch(" *import (static)? *([^ ]+) *;", line.strip())
             if not match:
                 print(cli_color_py.red("Static import {} cannot be parsed".format(line)), file=sys.stderr)
                 continue
@@ -130,7 +137,6 @@ def rewrite_java(file, migration):
                 if len(symbols) > 1 and re.fullmatch("[A-Z].*", symbols[-2]) is not None:
                     # package.A.B -> package.A
                     import_statement = ".".join(symbols[0:-1])
-                print(import_statement)
         else:
             # not an import line
             continue
@@ -207,8 +213,22 @@ def read_migration(file: str):
     with open(file, "r") as inp:
         return Migration.from_json(inp.read())
 
-def find_matching(old, new_listing):
-    return next(filter(lambda i: old.name == i.name, new_listing), None)
+def find_matching(old, new_listing, package_mappings):
+    matches = list(filter(lambda i: old.name == i.name, new_listing))
+    if not matches:
+        return None
+    elif len(matches) == 1:
+        return matches[0]
+    else:
+        # multiple matches
+        # try to use package_mappings
+        for pm in package_mappings:
+            if old.package.startswith(pm[0]):
+                for m in matches:
+                    if m.package.startswith(pm[1]):
+                        return m
+        # fallback
+        return matches[0]
 
 
 def listing(folder):
@@ -236,6 +256,53 @@ def to_java_class(cache, path):
     package = str(path.relative_to(parent / 'target/classes').parent).replace("/", ".")
     java_class = JavaClass("", artifactId, package, name.replace("$", "."))
     return java_class
+
+
+def bootstrap5_migration(folder):
+    for scss in folder.glob("**/src/**/*.scss"):
+        _replace(scss, "webjars://bootstrap:", "webjars://bootstrap4:")
+        _replace(scss, "webjars://bootstrap-override:", "webjars://bootstrap4-override:")
+    for webxml in folder.glob("**/src/**/web.xml"):
+        _replace(webxml, "org.iglooproject.wicket.servlet.filter.Log4jUrlFilter", "igloo.wicket.servlet.filter.Log4jUrlFilter")
+        _replace(webxml, "org.iglooproject.wicket.servlet.filter.OpenTFileRegistryFilter", "org.iglooproject.truevfs.filter.OpenTFileRegistryFilter")
+    for scss in folder.glob("**/src/**/_bootstrap-variables.scss"):
+        _check(scss, checker_contains_once("$brand:"), "Check $brand: definition in {}".format(str(scss)))
+        _check(scss, checker_contains_once("$table-cell-widths:"), "Check $table-cell-widths: definition in {}".format(str(scss)))
+        _check(scss, checker_contains_once("$spinner-vertical-align:"), "Check $spinner-vertical-align: definition in {}".format(str(scss)))
+        
+
+def _replace(file, source, target):
+    """Helper to handle simple replacements."""
+    content = None
+    with open(file, "r") as f:
+        content = f.readlines()
+    modified = False
+    for idx, line in enumerate(content):
+        if source in line:
+            content[idx] = line.replace(source, target)
+            modified = True
+    with open(file, "w") as f:
+        content = f.writelines(content)
+
+
+def checker_contains_once(pattern):
+    """Check if at least one line contains pattern."""
+    def checker(lines):
+        return functools.reduce(lambda x, y: x or y, map(lambda a: pattern in a, lines))
+    return checker
+
+
+def _check(file, checker, message):
+    content = None
+    with open(file, "r") as f:
+        result = checker(f.readlines())
+        if not result:
+            print(cli_color_py.red(message))
+
+
+MIGRATIONS = {
+    "bootstrap5": bootstrap5_migration
+}
 
 
 if __name__ == "__main__":
