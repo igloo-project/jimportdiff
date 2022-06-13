@@ -2,10 +2,11 @@
 
 import dataclasses
 import itertools
-import json
 import pathlib
+import re
 import shutil
 import subprocess
+import sys
 from tkinter import W
 import typing
 import xml.etree.ElementTree
@@ -112,16 +113,25 @@ def rewrite_java(file, migration):
     modified = False
     for idx, line in enumerate(content):
         if line.startswith("public ") or line.startswith("class ") or line.startswith("private "):
-            continue
-        if line.startswith("import"):
+            break
+        if line.startswith("import static"):
+            match = re.fullmatch(" *import static *([^ ]+)\\.[^ .]* *;", line.strip())
+            if not match:
+                print(cli_color_py.red("Static import {} cannot be parsed".format(line)), file=sys.stderr)
+                continue
+            else:
+                import_statement = match[1]
+        elif line.startswith("import"):
             import_statement = line[7: -2]
-            mapping = migration.find_mapping(import_statement)
-            if mapping is not None:
-                if mapping.new is None:
-                    print("No replacement for {} in {}".format(import_statement, pathlib.Path(file).name))
-                else:
-                    content[idx] = line.replace(import_statement, "{}.{}".format(mapping.new.package, mapping.new.name))
-                    modified = True
+        else:
+            continue
+        mapping = migration.find_mapping(import_statement)
+        if mapping is not None:
+            if mapping.new is None:
+                print("No replacement for {} in {}".format(import_statement, pathlib.Path(file).name))
+            else:
+                content[idx] = line.replace(import_statement, "{}.{}".format(mapping.new.package, mapping.new.name))
+                modified = True
     if modified:
         with open(file, "w") as f:
             f.writelines(content)
