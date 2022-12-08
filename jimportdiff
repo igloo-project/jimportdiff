@@ -266,9 +266,7 @@ def bootstrap5_migration(folder):
         _replace(webxml, "org.iglooproject.wicket.servlet.filter.Log4jUrlFilter", "igloo.wicket.servlet.filter.Log4jUrlFilter")
         _replace(webxml, "org.iglooproject.wicket.servlet.filter.OpenTFileRegistryFilter", "org.iglooproject.truevfs.filter.OpenTFileRegistryFilter")
     for scss in folder.glob("**/src/**/_bootstrap-variables.scss"):
-        _check(scss, checker_contains_once("$brand:"), "Check $brand: definition in {}".format(str(scss)))
         _check(scss, checker_contains_once("$table-cell-widths:"), "Check $table-cell-widths: definition in {}".format(str(scss)))
-        _check(scss, checker_contains_once("$spinner-vertical-align:"), "Check $spinner-vertical-align: definition in {}".format(str(scss)))
         
 
 def _replace(file, source, target):
