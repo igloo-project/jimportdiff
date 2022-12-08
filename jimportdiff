@@ -104,7 +104,7 @@ def generate(source, target, refresh, output, package_mappings):
 @main.command("rewrite")
 @click.argument("file", type=click.Path(file_okay=True, exists=True, resolve_path=True))
 @click.argument("target", type=click.Path(file_okay=False, exists=True, resolve_path=True))
-@click.option("--migration", type=click.Choice(["bootstrap5"]))
+@click.option("--migration", type=click.Choice(["igloo5"]))
 def rewrite(file, target, migration):
     migration_source = read_migration(file)
     for java_file in itertools.chain(pathlib.Path(target).glob("**/src/main/java/**/*.java"), pathlib.Path(target).glob("**/src/test/java/**/*.java")):
@@ -258,7 +258,7 @@ def to_java_class(cache, path):
     return java_class
 
 
-def bootstrap5_migration(folder):
+def igloo5_migration(folder):
     for scss in folder.glob("**/src/**/*.scss"):
         _replace(scss, "webjars://bootstrap:", "webjars://bootstrap4:")
         _replace(scss, "webjars://bootstrap-override:", "webjars://bootstrap4-override:")
@@ -299,7 +299,7 @@ def _check(file, checker, message):
 
 
 MIGRATIONS = {
-    "bootstrap5": bootstrap5_migration
+    "igloo5": igloo5_migration
 }
 
 
