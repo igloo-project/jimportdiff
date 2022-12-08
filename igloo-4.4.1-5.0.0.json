@@ -1,0 +1,5317 @@
+{
+  "mappings": [
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap",
+        "name": "BootstrapSettings"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap",
+        "name": "IBootstrapProvider"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap",
+        "name": "BootstrapVersion"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap",
+        "name": "BootstrapRequestCycle"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap",
+        "name": "IBootstrap5Page"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap",
+        "name": "IBootstrapApplication"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap",
+        "name": "IOption"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap",
+        "name": "IBootstrap4Page"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.util",
+        "name": "ImmutableStyle"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "IJsString"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "JsSequence"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "JsFunction.Builder"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "IJsMapping"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "IJsStatement"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "IJsBoolean"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "Util"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "JsNumber"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "JsLiteral"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "JsString"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "IJsFunction"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "IJsSequence"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "IJsLiteral"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "JsMapping.Builder"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "IJsNumber"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "JsFunction"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "JsSequence.Builder"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "IJsObject"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "JsMapping"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.statement",
+        "name": "JsBoolean"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.type",
+        "name": "JsBooleanType"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.type",
+        "name": "JsType"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.type",
+        "name": "JsFunctionType"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.type",
+        "name": "JsElementType"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.type",
+        "name": "JsMappingType"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.type",
+        "name": "JsNumberType"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.type",
+        "name": "JsSequenceType"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.type",
+        "name": "JsObjectType"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.type",
+        "name": "JsAnyType"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.js.type",
+        "name": "JsStringType"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.util",
+        "name": "Utils"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.popper",
+        "name": "Popper1JavaScriptResourceReference"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.modal",
+        "name": "IBootstrapModal"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.renderer",
+        "name": "IBootstrapRenderer"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.confirm",
+        "name": "IConfirmLinkBuilder"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.popover",
+        "name": "PopoverBehavior"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.popover",
+        "name": "JsPopover"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.popover",
+        "name": "IJsPopover.Placement"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.popover",
+        "name": "Popover.Builder"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.popover",
+        "name": "IPopover"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.popover",
+        "name": "PopoverPanel"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.popover",
+        "name": "IJsPopover.Trigger"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.popover",
+        "name": "JsPopover.Builder"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.popover",
+        "name": "IJsPopover"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.popover",
+        "name": "Popover"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.popover",
+        "name": "IJsPopover.Boundary"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.tooltip",
+        "name": "BootstrapTooltipOptions.Trigger"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.tooltip",
+        "name": "BootstrapTooltipOptions"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.tooltip",
+        "name": "BootstrapTooltipOptions.Boundary"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.tooltip",
+        "name": "BootstrapTooltipOptions.DelayOptions"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.tooltip",
+        "name": "IBootstrapTooltipOptions"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.tooltip",
+        "name": "BootstrapTooltipOptions.Placement"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.woption",
+        "name": "WDetachablesVisitor"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.woption",
+        "name": "WOptionHelpers.OptionModel"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.woption",
+        "name": "WOptionModelsVisitor"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.woption",
+        "name": "WVisitables"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.woption",
+        "name": "IWOptionDetachable"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.woption",
+        "name": "IWVisitable"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.woption",
+        "name": "IWOptionModel"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.woption",
+        "name": "IWVisitor"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.woption",
+        "name": "IWOption"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.woption",
+        "name": "WOptionHelpers.ModelOption"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.woption",
+        "name": "WOptionHelpers"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.woption",
+        "name": "WOptionHelpers.Wrapper"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.jsmodel",
+        "name": "JsHelpers.ElementComponent"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.jsmodel",
+        "name": "JsHelpers.StringModel"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.jsmodel",
+        "name": "JsHelpers"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.jsmodel",
+        "name": "JsHelpers.NumberModel"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.jsmodel",
+        "name": "JsHelpers.ElementComponentFactory"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.jsmodel",
+        "name": "JsHelpers.LiteralModel"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console",
+        "name": "WicketConsoleModule"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.application",
+        "name": "CoreApplication"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.application",
+        "name": "ICoreApplication"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "DataProviderBindings"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.feedback",
+        "name": "IFeedbackPanel"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-spring-autoconfigure",
+        "package": "org.igloo.spring.autoconfigure.bootstrap",
+        "name": "IglooWicketConsoleAutoConfiguration"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-spring-autoconfigure",
+        "package": "org.igloo.spring.autoconfigure.bootstrap",
+        "name": "IglooBootstrap5AutoConfiguration"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.repeater.table.builder.table",
+        "name": "DataTableTableBuilder"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.repeater.table.builder.table.state",
+        "name": "IDataTableTableState"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.jquery.plugins.feedback",
+        "name": "FeedbackJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.template.js.bootstrap",
+        "name": "Bootstrap5JavaScriptResourceReference"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.template.js.bootstrap.modal",
+        "name": "Bootstrap5ModalMoreJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.template.js.bootstrap.modal.component",
+        "name": "Bootstrap5ModalPanel"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.template.js.bootstrap.modal.statement",
+        "name": "BootstrapModal"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.template.js.bootstrap.collapse",
+        "name": "IBootstrapCollapseOptions"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.template.js.bootstrap.collapse",
+        "name": "BootstrapCollapseOptions"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.template.js.bootstrap.tooltip",
+        "name": "Bootstrap5TooltipMoreJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.template.js.bootstrap.dropdown",
+        "name": "IBootstrapDropdownOptions"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.template.js.bootstrap.dropdown",
+        "name": "BootstrapDropdownOptions.Boundary"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.template.js.bootstrap.dropdown",
+        "name": "BootstrapDropdownBehavior"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.template.js.bootstrap.dropdown",
+        "name": "BootstrapDropdownOptions.Display"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.template.js.bootstrap.dropdown",
+        "name": "BootstrapDropdownOptions.AutoClose"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.template.js.bootstrap.dropdown",
+        "name": "BootstrapDropdownOptions.Reference"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.template.js.bootstrap.dropdown",
+        "name": "BootstrapDropdownOptions"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.template.css.bootstrap",
+        "name": "CoreBootstrap5CssScope"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.application",
+        "name": "WicketBootstrap5Module"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.bootstrap.modal",
+        "name": "Bootstrap4ModalJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.bootstrap.modal.component",
+        "name": "Bootstrap4ModalPanel"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.bootstrap.collapse",
+        "name": "BootstrapCollapseBehavior"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.bootstrap.confirm",
+        "name": "BootstrapConfirmJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.bootstrap.tab",
+        "name": "BootstrapTabMoreJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.bootstrap.component",
+        "name": "BootstrapBadge"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.application",
+        "name": "WicketBootstrap4Module"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloojs",
+        "package": "igloo.igloojs.focus",
+        "name": "FocusJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloojs",
+        "package": "igloo.igloojs.showpassword",
+        "name": "ShowPasswordJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": null,
+      "new": {
+        "groupId": "",
+        "artifactId": "igloojs",
+        "package": "igloo.igloojs.showpassword",
+        "name": "ShowPasswordBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "basic-application-webapp",
+        "package": "org.iglooproject.basicapp.web.application.common.component",
+        "name": "NavTabsPanel.FeatureNotYetAvailableTabFactory"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.request.component",
+        "name": "ILongRunningPage"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.servlet.filter",
+        "name": "OpenTFileRegistryFilter"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.behavior",
+        "name": "CommentOutModifier"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.settings.def",
+        "name": "AdaptativeTimeoutRequestCycleSettings"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.jquery.plugins.alert",
+        "name": "AlertJavascriptResourceReference"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.button",
+        "name": "BootstrapButtonBehavior"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.button",
+        "name": "IBootstrapButtonModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.modal",
+        "name": "IBootstrapModalModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.modal.statement",
+        "name": "BootstrapModalStatement"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.scrollspy",
+        "name": "IBootstrapScrollSpyModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.scrollspy",
+        "name": "BootstrapScrollspyEvent"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.scrollspy",
+        "name": "BootstrapScrollSpyBehavior"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.scrollspy",
+        "name": "IBootstrapScrollSpy"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.scrollspy",
+        "name": "BootstrapScrollSpy"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm",
+        "name": "IBootstrapConfirmModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.component",
+        "name": "AjaxConfirmButton"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.component",
+        "name": "ConfirmButton"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.statement",
+        "name": "BootstrapConfirm"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.statement",
+        "name": "BootstrapConfirmStatement"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.tab",
+        "name": "IBootstrapTabModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.tab",
+        "name": "BootstrapTab"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.popover",
+        "name": "BootstrapPopoverBehavior"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.popover",
+        "name": "IBootstrapPopoverOptions.ITrigger"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.popover",
+        "name": "IBootstrapPopoverOptions.IPlacement"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.popover",
+        "name": "IBootstrapPopoverModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.popover",
+        "name": "IBootstrapPopoverOptions"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.tooltip",
+        "name": "AbstractBootstrapTooltipBehavior"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.tooltip",
+        "name": "IBootstrapTooltipModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.tooltip",
+        "name": "IBootstrapTooltip.ITrigger"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.tooltip",
+        "name": "IBootstrapTooltip"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.tooltip",
+        "name": "IBootstrapTooltip.IPlacement"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.tooltip",
+        "name": "BootstrapTooltipDocumentBehavior"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.dropdown",
+        "name": "IBootstrapDropdownModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.application",
+        "name": "IWicketBootstrapComponentsModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4",
+        "name": "WicketBootstrapPackage"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.button",
+        "name": "BootstrapButtonModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.button",
+        "name": "BootstrapButtonJavaScriptResourceReference"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.modal",
+        "name": "BootstrapModalJavaScriptResourceReference"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.modal",
+        "name": "BootstrapModalModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.scrollspy",
+        "name": "BootstrapScrollSpyModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.scrollspy",
+        "name": "BootstrapScrollSpyJavaScriptResourceReference"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.alert",
+        "name": "BootstrapAlertJavaScriptResourceReference"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.confirm",
+        "name": "BootstrapConfirmModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.tab",
+        "name": "BootstrapTabModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.popover",
+        "name": "BootstrapPopoverOptions"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.popover",
+        "name": "BootstrapPopoverOptions.Placement"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.popover",
+        "name": "BootstrapPopoverModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.popover",
+        "name": "BootstrapPopoverOptions.Trigger"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.tooltip",
+        "name": "BootstrapTooltip.Placement"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.tooltip",
+        "name": "BootstrapTooltipModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.tooltip",
+        "name": "BootstrapTooltip.Trigger"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.tooltip",
+        "name": "BootstrapTooltip"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.dropdown",
+        "name": "BootstrapDropdownModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.bootstrap",
+        "name": "WicketBootstrapComponentsModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.bootstrap.component.popover",
+        "name": "AbstractPopoverLinkPanel"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.bootstrap.component.popover",
+        "name": "AbstractPopoverLinkContentPanel"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.application",
+        "name": "WicketBootstrapModule"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.config.spring",
+        "name": "AbstractBootstrapWebappConfig"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.config.spring",
+        "name": "WicketBootstrapServiceConfig"
+      },
+      "new": null
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "basic-application-webapp",
+        "package": "org.iglooproject.basicapp.web.application.common.template.resources.styles.application.advanced",
+        "name": "StylesScssResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "basic-application-webapp",
+        "package": "org.iglooproject.basicapp.web.application.common.template.resources.styles.application.application.applicationbasic",
+        "name": "StylesScssResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "basic-application-webapp",
+        "package": "org.iglooproject.basicapp.web.application.common.template.resources.styles.application.basic",
+        "name": "StylesScssResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "basic-application-webapp",
+        "package": "org.iglooproject.basicapp.web.application.common.template.resources.styles.application.application.applicationadvanced",
+        "name": "StylesScssResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "basic-application-webapp",
+        "package": "org.iglooproject.basicapp.web.application.common.template.resources.styles.application.applicationaccess",
+        "name": "ApplicationAccessScssResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "basic-application-webapp",
+        "package": "org.iglooproject.basicapp.web.application.common.template.resources.styles.application.application.applicationaccess",
+        "name": "ApplicationAccessScssResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "basic-application-webapp",
+        "package": "org.iglooproject.basicapp.web.application.common.template.resources.styles.console.consoleaccess",
+        "name": "ConsoleAccessScssResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "basic-application-webapp",
+        "package": "org.iglooproject.basicapp.web.application.common.template.resources.styles.application.console.consoleaccess",
+        "name": "ConsoleAccessScssResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "basic-application-webapp",
+        "package": "org.iglooproject.basicapp.web.application.common.template.resources.styles.console.console",
+        "name": "ConsoleScssResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "basic-application-webapp",
+        "package": "org.iglooproject.basicapp.web.application.common.template.resources.styles.application.console.console",
+        "name": "ConsoleScssResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.panel",
+        "name": "GenericPanel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.markup.html.panel",
+        "name": "GenericPanel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.panel",
+        "name": "InvisiblePanel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.markup.html.panel",
+        "name": "InvisiblePanel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.link",
+        "name": "EmailLink"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.markup.html.link",
+        "name": "EmailLink"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.model",
+        "name": "ConcreteCollectionToCollectionWrapperModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "ConcreteCollectionToCollectionWrapperModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.model",
+        "name": "CountMessageModel.PropertySubstitutionBean"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "CountMessageModel.PropertySubstitutionBean"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.model",
+        "name": "CountMessageModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "CountMessageModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.model",
+        "name": "CountMessageModel.AssignmentWrapper"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "CountMessageModel.AssignmentWrapper"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.basic",
+        "name": "HideableExternalLink"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.component",
+        "name": "HideableExternalLink"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.basic",
+        "name": "CountLabel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.component",
+        "name": "CountLabel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.basic",
+        "name": "GenericLabel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.component",
+        "name": "GenericLabel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.basic",
+        "name": "AbstractCoreLabel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.component",
+        "name": "AbstractCoreLabel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.basic",
+        "name": "CoreLabel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.component",
+        "name": "CoreLabel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.basic",
+        "name": "EnumCoreLabel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.component",
+        "name": "EnumCoreLabel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.basic",
+        "name": "AbstractGenericLabel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.component",
+        "name": "AbstractGenericLabel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.list",
+        "name": "OddEvenListItem"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.markup.html.list",
+        "name": "OddEvenListItem"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.list",
+        "name": "OddEvenListView"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.markup.html.list",
+        "name": "OddEvenListView"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.list",
+        "name": "OddEvenPageableListView"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.markup.html.list",
+        "name": "OddEvenPageableListView"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.form",
+        "name": "InlineOverridableCheckGroup"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.markup.html.form",
+        "name": "InlineOverridableCheckGroup"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.form",
+        "name": "JavascriptEventConfirmationBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.markup.html.form",
+        "name": "JavascriptEventConfirmationBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.form",
+        "name": "AbstractOptGroupDropDownChoice"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.markup.html.form",
+        "name": "AbstractOptGroupDropDownChoice"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.form",
+        "name": "PageableSearchForm"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.markup.html.form",
+        "name": "PageableSearchForm"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.form",
+        "name": "CheckGroup"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.markup.html.form",
+        "name": "CheckGroup"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.form",
+        "name": "ListMultipleChoice"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.markup.html.form",
+        "name": "ListMultipleChoice"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.markup.html.form",
+        "name": "FormComponentHelper"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.markup.html.form",
+        "name": "FormComponentHelper"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.request.mapper",
+        "name": "PageParameterAwareMountedMapper"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.request.mapper",
+        "name": "PageParameterAwareMountedMapper"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.request.mapper",
+        "name": "NoVersionMountedMapper"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.request.mapper",
+        "name": "NoVersionMountedMapper"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.request.mapper",
+        "name": "StaticResourceMapper"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.request.mapper",
+        "name": "StaticResourceMapper"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.servlet.filter",
+        "name": "Log4jUrlFilter"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.servlet.filter",
+        "name": "Log4jUrlFilter"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.behavior",
+        "name": "ClassAttributeAppender"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.behavior",
+        "name": "ClassAttributeAppender"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.behavior",
+        "name": "AnchorLinkBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.behavior",
+        "name": "AnchorLinkBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.behavior",
+        "name": "ClassAttributeRemover"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.behavior",
+        "name": "ClassAttributeRemover"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "org.iglooproject.wicket.behavior",
+        "name": "AttributeRemover"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.behavior",
+        "name": "AttributeRemover"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.repeater.sequence",
+        "name": "ISequenceProvider"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "ISequenceProvider"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.repeater.collection",
+        "name": "ICollectionModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "ICollectionModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.repeater.collection",
+        "name": "IItemModelAwareCollectionModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "IItemModelAwareCollectionModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.repeater.map",
+        "name": "IItemModelAwareMapModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "IItemModelAwareMapModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.repeater.map",
+        "name": "IMapModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "IMapModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.repeater.map",
+        "name": "IMapProvider"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "IMapProvider"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.factory",
+        "name": "ModelFactories"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "ModelFactories"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.factory",
+        "name": "IThreeParameterComponentFactory"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.factory",
+        "name": "IThreeParameterComponentFactory"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.factory",
+        "name": "AbstractDecoratingParameterizedComponentFactory"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.factory",
+        "name": "AbstractDecoratingParameterizedComponentFactory"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.factory",
+        "name": "IComponentFactory"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.factory",
+        "name": "IComponentFactory"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.factory",
+        "name": "IDetachableFactory"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.factory",
+        "name": "IDetachableFactory"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.factory",
+        "name": "IOneParameterComponentFactory"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.factory",
+        "name": "IOneParameterComponentFactory"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.factory",
+        "name": "ITwoParameterComponentFactory"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.factory",
+        "name": "ITwoParameterComponentFactory"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js",
+        "name": "IDetachableChainableStatement"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js",
+        "name": "IDetachableChainableStatement"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js",
+        "name": "IStatementValueOption"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js",
+        "name": "IStatementValueOption"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.jquery.plugins.util",
+        "name": "StaticChainableStatement"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-jquery",
+        "package": "igloo.jquery.util",
+        "name": "StaticChainableStatement"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.jquery.plugins.util",
+        "name": "JsScopeFunction"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-jquery",
+        "package": "igloo.jquery.util",
+        "name": "JsScopeFunction"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.jquery.plugins.util",
+        "name": "JQueryAbstractBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-jquery",
+        "package": "igloo.jquery.util",
+        "name": "JQueryAbstractBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.jquery.plugins.util",
+        "name": "AbstractCoreJQueryPluginResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-jquery",
+        "package": "igloo.jquery.util",
+        "name": "AbstractCoreJQueryPluginResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.jquery.plugins.util",
+        "name": "WebjarsCoreJQueryPluginResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-jquery",
+        "package": "igloo.jquery.util",
+        "name": "WebjarsCoreJQueryPluginResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.jquery.plugins.util",
+        "name": "Constructor"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-jquery",
+        "package": "igloo.jquery.util",
+        "name": "Constructor"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.jquery.plugins.util",
+        "name": "WebjarsJQueryPluginResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-jquery",
+        "package": "igloo.jquery.util",
+        "name": "WebjarsJQueryPluginResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.popper",
+        "name": "PopperJavaScriptResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.popper",
+        "name": "PopperJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap",
+        "name": "SimpleOptions"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.bootstrap",
+        "name": "SimpleOptions"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.modal.component",
+        "name": "IAjaxModalShowListener"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.modal",
+        "name": "IAjaxModalShowListener"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.modal.component",
+        "name": "IModalPopupPanel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.modal",
+        "name": "IModalPopupPanel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.modal.component",
+        "name": "AbstractAjaxModalPopupPanel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.modal",
+        "name": "AbstractAjaxModalPopupPanel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.modal.component",
+        "name": "AbstractModalPopupPanel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.modal",
+        "name": "AbstractModalPopupPanel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.modal.component",
+        "name": "DelegatedMarkupPanel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.markup.html.panel",
+        "name": "DelegatedMarkupPanel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.modal.component",
+        "name": "AbstractAjaxModalPopupPanel.OnShowVisitor"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.modal",
+        "name": "AbstractAjaxModalPopupPanel.OnShowVisitor"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.modal.component",
+        "name": "IAjaxModalPopupPanel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.modal",
+        "name": "IAjaxModalPopupPanel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.modal.behavior",
+        "name": "ModalOpenOnClickBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.modal",
+        "name": "ModalOpenOnClickBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.modal.behavior",
+        "name": "AjaxModalOpenBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.modal",
+        "name": "AjaxModalOpenBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.modal.statement",
+        "name": "BootstrapModalEvent"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.modal",
+        "name": "BootstrapModalEvent"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.modal.statement",
+        "name": "BootstrapModalBackdrop"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.modal",
+        "name": "BootstrapModalBackdrop"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.modal.statement",
+        "name": "BootstrapModal"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.bootstrap.modal.statement",
+        "name": "BootstrapModal"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.component",
+        "name": "ConfirmLinkBuilder"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.confirm",
+        "name": "ConfirmLinkBuilder"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.component",
+        "name": "AbstractConfirmLinkBuilder.FunctionalAjaxConfirmLink"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.confirm",
+        "name": "AbstractConfirmLinkBuilder.FunctionalAjaxConfirmLink"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.component",
+        "name": "AbstractConfirmLinkBuilder.FunctionalConfirmLink"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.confirm",
+        "name": "AbstractConfirmLinkBuilder.FunctionalConfirmLink"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.component",
+        "name": "AjaxConfirmLinkBuilder"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.confirm",
+        "name": "AjaxConfirmLinkBuilder"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.component",
+        "name": "AbstractConfirmLinkBuilder"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.confirm",
+        "name": "AbstractConfirmLinkBuilder"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.component",
+        "name": "AjaxConfirmLink"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.confirm",
+        "name": "AjaxConfirmLink"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.component",
+        "name": "ConfirmLink"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.confirm",
+        "name": "ConfirmLink"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.behavior",
+        "name": "ConfirmContentBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.confirm",
+        "name": "ConfirmContentBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.statement",
+        "name": "BootstrapConfirmEvent"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.confirm",
+        "name": "BootstrapConfirmEvent"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.fluid",
+        "name": "IConfirmLinkBuilderStepOneParameterTerminal"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.confirm",
+        "name": "IConfirmLinkBuilderStepOneParameterTerminal"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.fluid",
+        "name": "IConfirmLinkBuilderStepEndContent"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.confirm",
+        "name": "IConfirmLinkBuilderStepEndContent"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.fluid",
+        "name": "IConfirmLinkBuilderStepNo"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.confirm",
+        "name": "IConfirmLinkBuilderStepNo"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.fluid",
+        "name": "IConfirmLinkBuilderStepContent"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.confirm",
+        "name": "IConfirmLinkBuilderStepContent"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.fluid",
+        "name": "IConfirmLinkBuilderStepTerminal"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.confirm",
+        "name": "IConfirmLinkBuilderStepTerminal"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.fluid",
+        "name": "IConfirmLinkBuilderStepStart"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.confirm",
+        "name": "IConfirmLinkBuilderStepStart"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.confirm.fluid",
+        "name": "IConfirmLinkBuilderStepOnclick"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.confirm",
+        "name": "IConfirmLinkBuilderStepOnclick"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.tab",
+        "name": "BootstrapTabBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.tab",
+        "name": "BootstrapTabBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.tooltip",
+        "name": "BootstrapTooltipBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.tooltip",
+        "name": "BootstrapTooltipBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.bootstrap.dropdown",
+        "name": "BootstrapDropdownBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.bootstrap.dropdown",
+        "name": "BootstrapDropdownBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.template.js.igloo",
+        "name": "IglooUtilsJavaScriptResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-jquery",
+        "package": "igloo.jquery.resource",
+        "name": "IglooUtilsJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.bootstrap.common.renderer",
+        "name": "IBootstrapRendererModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.renderer",
+        "name": "IBootstrapRendererModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.bootstrap.common.model",
+        "name": "BootstrapColor"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.common",
+        "name": "BootstrapColor"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.bootstrap.common.model",
+        "name": "IBootstrapColor"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.common",
+        "name": "IBootstrapColor"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.bootstrap.component",
+        "name": "IBootstrapBadge"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.badge",
+        "name": "IBootstrapBadge"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.action",
+        "name": "IOneParameterAjaxAction"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.action",
+        "name": "IOneParameterAjaxAction"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.action",
+        "name": "IAction"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.action",
+        "name": "IAction"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.action",
+        "name": "IOneParameterAction"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.action",
+        "name": "IOneParameterAction"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.action",
+        "name": "IAjaxAction"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.action",
+        "name": "IAjaxAction"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.action",
+        "name": "OneParameterModalOpenAjaxAction"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.modal",
+        "name": "OneParameterModalOpenAjaxAction"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.action",
+        "name": "AjaxActions"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.action",
+        "name": "AjaxActions"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.action",
+        "name": "Actions"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.action",
+        "name": "Actions"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.basic",
+        "name": "DateLabel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.component",
+        "name": "DateLabel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.basic",
+        "name": "PlaceholderContainer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.component",
+        "name": "PlaceholderContainer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.basic",
+        "name": "AbstractComponentBooleanPropertyBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "AbstractComponentBooleanPropertyBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.basic",
+        "name": "EnclosureContainer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.component",
+        "name": "EnclosureContainer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.basic",
+        "name": "ComponentBooleanPropertyBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "ComponentBooleanPropertyBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.basic",
+        "name": "PercentageBigDecimalConverter"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.component",
+        "name": "PercentageBigDecimalConverter"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.basic",
+        "name": "EnabledContainer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.component",
+        "name": "EnabledContainer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.basic",
+        "name": "SeparatorContainer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.component",
+        "name": "SeparatorContainer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.basic",
+        "name": "DefaultPlaceholderPanel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.component",
+        "name": "DefaultPlaceholderPanel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.basic",
+        "name": "BooleanContainer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.component",
+        "name": "BooleanContainer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.basic",
+        "name": "PercentageValidator"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.component",
+        "name": "PercentageValidator"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.basic",
+        "name": "IPlaceholderEnclosureBuilder"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "IPlaceholderEnclosureBuilder"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.basic",
+        "name": "ComponentBooleanProperty"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "ComponentBooleanProperty"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.basic",
+        "name": "GenericMarkupContainer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.component",
+        "name": "GenericMarkupContainer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.basic",
+        "name": "TargetBlankBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.component",
+        "name": "TargetBlankBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.basic.impl",
+        "name": "AbstractConfigurableComponentBooleanPropertyContainer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "AbstractConfigurableComponentBooleanPropertyContainer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.basic.impl",
+        "name": "AbstractConfigurableComponentBooleanPropertyBehavior.Operator"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "AbstractConfigurableComponentBooleanPropertyBehavior.Operator"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.basic.impl",
+        "name": "AbstractConfigurableComponentBooleanPropertyBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "AbstractConfigurableComponentBooleanPropertyBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.markup.html.feedback",
+        "name": "FeedbackUtils"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.feedback",
+        "name": "FeedbackUtils"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.condition",
+        "name": "Condition.PredicateCondition"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "Condition.PredicateCondition"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.condition",
+        "name": "Condition.EquivalenceCondition"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "Condition.EquivalenceCondition"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.condition",
+        "name": "Condition.IfElseBuilder"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "Condition.IfElseBuilder"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.condition",
+        "name": "Condition.ConstantCondition"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "Condition.ConstantCondition"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.condition",
+        "name": "BooleanOperator"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "BooleanOperator"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.condition",
+        "name": "Condition.ContainsCondition"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "Condition.ContainsCondition"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.condition",
+        "name": "Condition.ConditionalModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "Condition.ConditionalModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.condition",
+        "name": "Condition.ValueIfElseBuilder"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "Condition.ValueIfElseBuilder"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.condition",
+        "name": "Condition.AnyObjectPermissionCondition"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "Condition.AnyObjectPermissionCondition"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.condition",
+        "name": "Condition.AnyRoleCondition"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "Condition.AnyRoleCondition"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.condition",
+        "name": "Condition.AnyGlobalPermissionCondition"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "Condition.AnyGlobalPermissionCondition"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.condition",
+        "name": "Condition.NegateCondition"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "Condition.NegateCondition"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.condition",
+        "name": "Condition.AnyChildEnabledCondition"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "Condition.AnyChildEnabledCondition"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.condition",
+        "name": "Condition.AnyChildVisibleCondition"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "Condition.AnyChildVisibleCondition"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.condition",
+        "name": "Condition.VisibleCondition"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "Condition.VisibleCondition"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.condition",
+        "name": "Condition"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "Condition"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.condition",
+        "name": "Condition.CompositeCondition"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "Condition.CompositeCondition"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util",
+        "name": "Detach"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.condition",
+        "name": "Detach"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util",
+        "name": "IDatePattern"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.util",
+        "name": "IDatePattern"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util",
+        "name": "DatePattern"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.util",
+        "name": "DatePattern"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util.model",
+        "name": "Models.MapModelBuilder.MapModelBuilderMap"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "Models.MapModelBuilder.MapModelBuilderMap"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util.model",
+        "name": "SequenceProviders.DataProviderSequenceProviderAdapter"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "SequenceProviders.DataProviderSequenceProviderAdapter"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util.model",
+        "name": "Models.PlaceholderModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "Models.PlaceholderModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util.model",
+        "name": "Models.MapModelValueModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "Models.MapModelValueModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util.model",
+        "name": "SequenceProviders"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "SequenceProviders"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util.model",
+        "name": "Models.TransientModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "Models.TransientModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util.model",
+        "name": "SequenceProviders.ConstantCollectionModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "SequenceProviders.ConstantCollectionModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util.model",
+        "name": "StreamModel.FirstModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "StreamModel.FirstModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util.model",
+        "name": "Models"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "Models"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util.model",
+        "name": "FilterByModelItemModelAwareCollectionModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "FilterByModelItemModelAwareCollectionModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util.model",
+        "name": "StreamModel.ConcatStreamModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "StreamModel.ConcatStreamModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util.model",
+        "name": "StreamModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "StreamModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util.model",
+        "name": "StreamModel.MapStreamModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "StreamModel.MapStreamModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util.model",
+        "name": "Detachables"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "Detachables"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util.model",
+        "name": "StreamModel.CollectModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "StreamModel.CollectModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util.model",
+        "name": "Models.MapModelBuilder"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "Models.MapModelBuilder"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util.model",
+        "name": "Models.SerializableModelFactory"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "Models.SerializableModelFactory"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.util.model",
+        "name": "Models.ModelGetObjectFunction"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "Models.ModelGetObjectFunction"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.common.component",
+        "name": "WorkInProgressPopup"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.modal",
+        "name": "WorkInProgressPopup"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.export",
+        "name": "AbstractDeferredDownloadBehavior.ResourceDownloadBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.download",
+        "name": "AbstractDeferredDownloadBehavior.ResourceDownloadBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.export",
+        "name": "AbstractDeferredDownloadBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.download",
+        "name": "AbstractDeferredDownloadBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.export",
+        "name": "AbstractDeferredDownloadBehavior.DoOnDomReadyBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.download",
+        "name": "AbstractDeferredDownloadBehavior.DoOnDomReadyBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.export.file.component",
+        "name": "SimpleFileDownloadAjaxLink"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.export",
+        "name": "SimpleFileDownloadAjaxLink"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.export.file.component",
+        "name": "FileDownloadAjaxLink"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.modal",
+        "name": "FileDownloadAjaxLink"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.export.file.component",
+        "name": "AbstractFileDownloadAjaxLink"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-bootstrap",
+        "package": "igloo.bootstrap.modal",
+        "name": "AbstractFileDownloadAjaxLink"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.export.file.behavior",
+        "name": "FileDeferredDownloadBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.download",
+        "name": "FileDeferredDownloadBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.export.excel.component",
+        "name": "AbstractExcelExportAjaxLink"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.excel",
+        "name": "AbstractExcelExportAjaxLink"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.export.excel.component",
+        "name": "AbstractExcelExportAjaxSubmitLink"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.excel",
+        "name": "AbstractExcelExportAjaxSubmitLink"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.export.excel.component",
+        "name": "ExcelExportWorkInProgressModalPopupPanel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.excel",
+        "name": "ExcelExportWorkInProgressModalPopupPanel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "AbstractMapCopyModel.KeysModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "AbstractMapCopyModel.KeysModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "AbstractCollectionCopyModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "AbstractCollectionCopyModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "BindingModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "BindingModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "ReadOnlyModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "ReadOnlyModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "ReadOnlyMapModel.ValuesModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "ReadOnlyMapModel.ValuesModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "ReadOnlyMapModel.WrapModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "ReadOnlyMapModel.WrapModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "CollectionCopyModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "CollectionCopyModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "LocaleAwareReadOnlyModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "LocaleAwareReadOnlyModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "IBindableDataProviderBinding"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "IBindableDataProviderBinding"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "MapCopyModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "MapCopyModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "AbstractMapCollectionModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "AbstractMapCollectionModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "IBindableDataProvider"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "IBindableDataProvider"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "IBindableDataProviderBindingPath"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "IBindableDataProviderBindingPath"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "ReadOnlyMapModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "ReadOnlyMapModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "LocaleAwareReadOnlyModel.WrapModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "LocaleAwareReadOnlyModel.WrapModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "ReadOnlyModel.WrapModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "ReadOnlyModel.WrapModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "ReadOnlyMapModel.KeysModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "ReadOnlyMapModel.KeysModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "AbstractMapCopyModel.ValuesModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "AbstractMapCopyModel.ValuesModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.model",
+        "name": "AbstractMapCopyModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.model",
+        "name": "AbstractMapCopyModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer.CountRenderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer.CountRenderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer.DefaultingRenderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer.DefaultingRenderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer.JoiningRenderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer.JoiningRenderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer.FromRendererWicketRenderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer.FromRendererWicketRenderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer.FromConverterRenderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer.FromConverterRenderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer.MapRenderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer.MapRenderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer.RangeRenderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer.RangeRenderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer.MapJoinerRenderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer.MapJoinerRenderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer.IterableJoinerRenderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer.IterableJoinerRenderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer.ConstantRenderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer.ConstantRenderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer.RendererModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer.RendererModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer.FromStringFormatRenderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer.FromStringFormatRenderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer.ByFunctionRenderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer.ByFunctionRenderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer.ComposeRenderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer.ComposeRenderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer.ResourceKeyWithRenderedParameterRenderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer.ResourceKeyWithRenderedParameterRenderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer.FromResourceKeyRenderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer.FromResourceKeyRenderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer.FormatRenderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer.FormatRenderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer.RendererFunction"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer.RendererFunction"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-more",
+        "package": "org.iglooproject.wicket.more.rendering",
+        "name": "Renderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket",
+        "package": "igloo.wicket.renderer",
+        "name": "Renderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.select2",
+        "name": "Select2JavaScriptResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-select2",
+        "package": "igloo.select2",
+        "name": "Select2JavaScriptResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.select2",
+        "name": "Select2MoreJavaScriptResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-select2",
+        "package": "igloo.select2",
+        "name": "Select2MoreJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.sidebar",
+        "name": "SidebarJavaScriptResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.sidebar",
+        "name": "SidebarJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.sidebar",
+        "name": "SidebarBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.sidebar",
+        "name": "SidebarBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.jqueryui",
+        "name": "JQueryUIJavaScriptResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-jqueryui",
+        "package": "igloo.jqueryui",
+        "name": "JQueryUIJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.util",
+        "name": "BootstrapUtilJavaScriptResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.bootstrap.util",
+        "name": "BootstrapUtilJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.modal",
+        "name": "BootstrapModalMoreJavaScriptResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.bootstrap.modal",
+        "name": "BootstrapModalMoreJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.collapse",
+        "name": "BootstrapCollapseEventType"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.bootstrap.collapse",
+        "name": "BootstrapCollapseEventType"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.collapse",
+        "name": "BootstrapCollapseJavaScriptResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.bootstrap.collapse",
+        "name": "BootstrapCollapseJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.collapse",
+        "name": "BootstrapCollapseBehavior"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.template.js.bootstrap.collapse",
+        "name": "BootstrapCollapseBehavior"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.confirm",
+        "name": "BootstrapConfirmJavaScriptResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.template.js.bootstrap.confirm",
+        "name": "BootstrapConfirmJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.tab",
+        "name": "BootstrapTabJavaScriptResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.bootstrap.tab",
+        "name": "BootstrapTabJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.tab",
+        "name": "BootstrapTabMoreJavaScriptResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.template.js.bootstrap.tab",
+        "name": "BootstrapTabMoreJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.popover",
+        "name": "BootstrapPopoverJavaScriptResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.bootstrap.popover",
+        "name": "BootstrapPopoverJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.carousel",
+        "name": "BootstrapCarouselJavaScriptResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.bootstrap.carousel",
+        "name": "BootstrapCarouselJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.tooltip",
+        "name": "BootstrapTooltipJavaScriptResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.bootstrap.tooltip",
+        "name": "BootstrapTooltipJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.js.bootstrap.dropdown",
+        "name": "BootstrapDropDownJavaScriptResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.js.bootstrap.dropdown",
+        "name": "BootstrapDropDownJavaScriptResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.css.jqueryui",
+        "name": "JQueryUiCssResourceReference"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-jqueryui",
+        "package": "igloo.jqueryui",
+        "name": "JQueryUiCssResourceReference"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.css.bootstrap",
+        "name": "CoreBootstrap4CssScope"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "igloo.bootstrap4.markup.html.template.css.bootstrap",
+        "name": "CoreBootstrap4CssScope"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.template.css.fontawesome",
+        "name": "CoreFontAwesomeCssScope"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-fontawesome",
+        "package": "igloo.fontawesome",
+        "name": "CoreFontAwesomeCssScope"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.markup.html.bootstrap.component",
+        "name": "BootstrapBadge"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap5",
+        "package": "igloo.bootstrap5.markup.html.bootstrap.component",
+        "name": "BootstrapBadge"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.template",
+        "name": "ConsoleConfiguration"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.template",
+        "name": "ConsoleConfiguration"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.template",
+        "name": "ConsoleTemplate"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.template",
+        "name": "ConsoleTemplate"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.template",
+        "name": "ConsoleAccessTemplate"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.template",
+        "name": "ConsoleAccessTemplate"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.template.style",
+        "name": "CoreConsoleCssScope"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.template.style",
+        "name": "CoreConsoleCssScope"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.ehcache.page",
+        "name": "ConsoleMaintenanceEhCachePage"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.ehcache.page",
+        "name": "ConsoleMaintenanceEhCachePage"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.ehcache.component",
+        "name": "ConsoleMaintenanceEhCacheCacheEditPopup"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.ehcache.component",
+        "name": "ConsoleMaintenanceEhCacheCacheEditPopup"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.ehcache.component",
+        "name": "ConsoleMaintenanceEhCacheProgressBarPanel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.ehcache.component",
+        "name": "ConsoleMaintenanceEhCacheProgressBarPanel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.data.page",
+        "name": "ConsoleMaintenanceDataPage"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.data.page",
+        "name": "ConsoleMaintenanceDataPage"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.gestion.page",
+        "name": "ConsoleMaintenanceGestionPage"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.gestion.page",
+        "name": "ConsoleMaintenanceGestionPage"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.template",
+        "name": "ConsoleMaintenanceTemplate"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.template",
+        "name": "ConsoleMaintenanceTemplate"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.properties.page",
+        "name": "ConsoleMaintenancePropertiesPage"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.properties.page",
+        "name": "ConsoleMaintenancePropertiesPage"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.authentication.page",
+        "name": "ConsoleMaintenanceAuthenticationPage"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.authentication.page",
+        "name": "ConsoleMaintenanceAuthenticationPage"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.task.page",
+        "name": "ConsoleMaintenanceTaskDetailPage"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.task.page",
+        "name": "ConsoleMaintenanceTaskDetailPage"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.task.page",
+        "name": "ConsoleMaintenanceTaskListPage"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.task.page",
+        "name": "ConsoleMaintenanceTaskListPage"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.task.component",
+        "name": "TaskTypeDropDownMultipleChoice"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.task.component",
+        "name": "TaskTypeDropDownMultipleChoice"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.task.component",
+        "name": "TaskResultDropDownMultipleChoice"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.task.component",
+        "name": "TaskResultDropDownMultipleChoice"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.task.component",
+        "name": "TaskStatusDropDownMultipleChoice"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.task.component",
+        "name": "TaskStatusDropDownMultipleChoice"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.task.component",
+        "name": "ConsoleMaintenanceTaskSearchPanel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.task.component",
+        "name": "ConsoleMaintenanceTaskSearchPanel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.task.component",
+        "name": "TaskQueueIdDropDownMultipleChoice.ChoiceRenderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.task.component",
+        "name": "TaskQueueIdDropDownMultipleChoice.ChoiceRenderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.task.component",
+        "name": "ConsoleMaintenanceTaskBatchReportPanel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.task.component",
+        "name": "ConsoleMaintenanceTaskBatchReportPanel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.task.component",
+        "name": "ConsoleMaintenanceTaskTaskManagerPanel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.task.component",
+        "name": "ConsoleMaintenanceTaskTaskManagerPanel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.task.component",
+        "name": "TaskQueueIdDropDownMultipleChoice"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.task.component",
+        "name": "TaskQueueIdDropDownMultipleChoice"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.task.component",
+        "name": "TaskQueueIdDropDownMultipleChoice.ChoicesModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.task.component",
+        "name": "TaskQueueIdDropDownMultipleChoice.ChoicesModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.task.component",
+        "name": "TaskTypeDropDownMultipleChoice.ChoicesModel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.task.component",
+        "name": "TaskTypeDropDownMultipleChoice.ChoicesModel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.file.page",
+        "name": "ConsoleMaintenanceFilePage"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.file.page",
+        "name": "ConsoleMaintenanceFilePage"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.maintenance.search.page",
+        "name": "ConsoleMaintenanceSearchPage"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.maintenance.search.page",
+        "name": "ConsoleMaintenanceSearchPage"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.common.component",
+        "name": "JavaClassesDropDownMultipleChoice.JavaClassChoiceRenderer"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.common.component",
+        "name": "JavaClassesDropDownMultipleChoice.JavaClassChoiceRenderer"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.common.component",
+        "name": "PropertyIdListPanel"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.common.component",
+        "name": "PropertyIdListPanel"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.common.component",
+        "name": "JavaClassesDropDownMultipleChoice"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.common.component",
+        "name": "JavaClassesDropDownMultipleChoice"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.common.form",
+        "name": "PropertyIdEditPopup"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.common.form",
+        "name": "PropertyIdEditPopup"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.navigation.page",
+        "name": "ConsoleLoginSuccessPage"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.navigation.page",
+        "name": "ConsoleLoginSuccessPage"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.navigation.page",
+        "name": "ConsoleSignInPage.ContentFragment"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.navigation.page",
+        "name": "ConsoleSignInPage.ContentFragment"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.navigation.page",
+        "name": "ConsoleAccessDeniedPage"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.navigation.page",
+        "name": "ConsoleAccessDeniedPage"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.navigation.page",
+        "name": "ConsoleSignInPage"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.navigation.page",
+        "name": "ConsoleSignInPage"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.navigation.page",
+        "name": "ConsoleLoginFailurePage"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.navigation.page",
+        "name": "ConsoleLoginFailurePage"
+      }
+    },
+    {
+      "old": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-bootstrap4",
+        "package": "org.iglooproject.wicket.bootstrap4.console.resources",
+        "name": "CoreWicketConsoleResources"
+      },
+      "new": {
+        "groupId": "",
+        "artifactId": "igloo-component-wicket-console",
+        "package": "igloo.console.resources",
+        "name": "CoreWicketConsoleResources"
+      }
+    }
+  ]
+}
