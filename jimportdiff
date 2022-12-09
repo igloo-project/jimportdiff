@@ -8,7 +8,6 @@ import re
 import shutil
 import subprocess
 import sys
-from tkinter import W
 import typing
 import xml.etree.ElementTree
 
