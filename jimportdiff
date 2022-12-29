@@ -285,7 +285,9 @@ def _replace(file, source, target):
 def checker_contains_once(pattern):
     """Check if at least one line contains pattern."""
     def checker(lines):
-        return functools.reduce(lambda x, y: x or y, map(lambda a: pattern in a, lines))
+        if lines:
+            return functools.reduce(lambda x, y: x or y, map(lambda a: pattern in a, lines))
+        return False
     return checker
 
 
