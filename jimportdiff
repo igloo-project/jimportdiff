@@ -28,7 +28,7 @@ class JavaClass:
         self.artifactId = artifactId
         self.package = package
         self.name = name
-    
+
     def __str__(self):
         return "{}:{}/{}{}".format(self.groupId, self.artifactId, self.package, "." + self.name if self.name else "")
 
@@ -52,7 +52,7 @@ class Migration:
     mappings: typing.List[Mapping]
     def __init__(self, mappings: typing.List[Mapping]):
         self.mappings = mappings
-    
+
     def find_mapping(self, old: str):
         return next(filter(lambda i: i.old is not None and "{}.{}".format(i.old.package, i.old.name) == old, self.mappings), None)
 
@@ -110,6 +110,25 @@ def rewrite(file, target, migration):
         rewrite_java(java_file, migration_source)
     if migration:
         MIGRATIONS[migration](pathlib.Path(target))
+
+
+@main.command("dart-scss")
+def dart_scss():
+    for scss_file in itertools.chain(pathlib.Path(".").glob("**/src/main/java/**/*.scss"), pathlib.Path(".").glob("**/src/test/java/**/*.scss")):
+        rewrite_dart_scss(scss_file)
+
+
+def rewrite_dart_scss(scss_file):
+    replace = False
+    with open(scss_file, "r") as f:
+        original_content = f.read()
+        content = re.sub(r"webjars://([^:]+):current/", r"webjars://\1/", original_content)
+        content = re.sub(r"webjars://([^\"]+)", r"META-INF/resources/webjars/\1", content)
+        content = re.sub(r"(\$\(scope-[^)]+\)(?!/))", r"\1/", content)
+        if original_content != content:
+            print("File {} modified.".format(scss_file))
+    with open(scss_file, "w") as f:
+        f.write(content)
 
 
 def rewrite_java(file, migration):
@@ -266,7 +285,7 @@ def igloo5_migration(folder):
         _replace(webxml, "org.iglooproject.wicket.servlet.filter.OpenTFileRegistryFilter", "org.iglooproject.truevfs.filter.OpenTFileRegistryFilter")
     for scss in folder.glob("**/src/**/_bootstrap-variables.scss"):
         _check(scss, checker_contains_once("$table-cell-widths:"), "Check $table-cell-widths: definition in {}".format(str(scss)))
-        
+
 
 def _replace(file, source, target):
     """Helper to handle simple replacements."""
